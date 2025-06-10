@@ -1,1 +1,21 @@
-/* You can add global styles to this file, and also import other style files */
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
+*{
+    margin: 0;
+    padding: 0;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+
+@keyframes slideLoop {
+  0% { transform: translateX(-50%) translateY(-40%) }
+  50% { transform: translateX(-45%) translateY(-40%) }
+  100% { transform: translateX(-50%) translateY(-40%) }
+}
+
