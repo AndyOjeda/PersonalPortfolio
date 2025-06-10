@@ -16,6 +16,7 @@ export class HomeComponent {
   activeTab: 'frontend' | 'backend' = 'frontend';
   activeSection: string = 'home';
   isMenuOpen = false;
+  cvMenuOpen = false;
 
   frontendTechs = [
     { name: 'HTML', icon: 'assets/img/html.png', description: 'Structure of web content' },
@@ -168,6 +169,15 @@ export class HomeComponent {
     this.indicator.nativeElement.style.transform = `translateX(${offset}px)`;
     this.indicator.nativeElement.style.width = `${width}px`;
 }
+
+
+  toggleMenu() {
+    this.cvMenuOpen = !this.cvMenuOpen;
+  }
+
+  closeMenu() {
+    this.cvMenuOpen = false;
+  }
 
 
 
