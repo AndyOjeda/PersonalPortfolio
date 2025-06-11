@@ -82,11 +82,11 @@ export class HomeComponent {
       imagen: 'assets/projects/tripio/tripio.jpg',
       imagenes: [
         'assets/projects/tripio/homeT.png',
-        'assets/projects/latinaguas/mapT.png',
-        'assets/projects/latinaguas/productT.png',
-        'assets/projects/latinaguas/cameraT.png',
-        'assets/projects/latinaguas/favoritesT.png',
-        'assets/projects/latinaguas/userT.png',
+        'assets/projects/tripio/mapT.png',
+        'assets/projects/tripio/productT.png',
+        'assets/projects/tripio/cameraT.png',
+        'assets/projects/tripio/favoritesT.png',
+        'assets/projects/tripio/userT.png',
       ]
     }
   ];
