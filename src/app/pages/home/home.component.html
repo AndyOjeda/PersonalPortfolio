@@ -258,6 +258,7 @@
       <img
         [src]="proyectoActual.imagen"
         loading="lazy"
+        decoding="async"
         [alt]="proyectoActual.titulo"
         class="absolute inset-0 w-full h-full object-cover saturate-150 brightness-110"
       />
@@ -307,7 +308,7 @@
           &#10094;
         </button>
 
-        <img [src]="imagenesDialogo[imagenActual]" alt="Imagen del proyecto"
+        <img [src]="imagenesDialogo[imagenActual]" alt="Imagen del proyecto" decoding="async"
           class="max-h-[60vh] rounded-2xl object-contain transition duration-300 saturate-150 brightness-110 w-full max-w-full" />
 
         <button (click)="siguienteImagen()"
