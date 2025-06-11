@@ -37,10 +37,10 @@ export class HomeComponent {
 
   proyectos = [
   {
-    title: 'Library Manager For University',
-    description: 'Web app to manage tasks with authentication and filtering features.',
-    image: 'assets/projects/biblioteca/biblioteca.png',
-    images: [
+    titulo: 'Library Manager For University',
+    descripcion: 'Web app to manage tasks with authentication and filtering features.',
+    imagen: 'assets/projects/biblioteca/biblioteca.png',
+    imagenes: [
       'assets/projects/biblioteca/login.png',
       'assets/projects/biblioteca/biblioteca.png',
       'assets/projects/biblioteca/books.png',
@@ -50,10 +50,10 @@ export class HomeComponent {
     ]
   },
   {
-    title: 'ZIPACONECTA: Zipaquirá Security App',
-    description: 'An app for Zipaquirá with many important security features.',
-    image: 'assets/projects/zipaSeguridad/zipaconecta.jpg',
-    images: [
+    titulo: 'ZIPACONECTA: Zipaquirá Security App',
+    descripcion: 'An app for Zipaquirá with many important security features.',
+    imagen: 'assets/projects/zipaSeguridad/zipaconecta.jpg',
+    imagenes: [
       'assets/projects/zipaSeguridad/login.png',
       'assets/projects/zipaSeguridad/home.png',
       'assets/projects/zipaSeguridad/security.png',
@@ -64,10 +64,10 @@ export class HomeComponent {
     ]
   },
   {
-    title: 'Latinaguas',
-    description: 'Water treatment solutions provider with custom engineering, technical consulting, and over two decades of experience in public and industrial systems.',
-    image: 'assets/projects/latinaguas/a.jpg',
-    images: [
+    titulo: 'Latinaguas',
+    descripcion: 'Water treatment solutions provider with custom engineering, technical consulting, and over two decades of experience in public and industrial systems.',
+    imagn: 'assets/projects/latinaguas/a.jpg',
+    imagenes: [
       'assets/projects/latinaguas/home.png',
       'assets/projects/latinaguas/home1.png',
       'assets/projects/latinaguas/products.png',
@@ -77,10 +77,10 @@ export class HomeComponent {
     ]
   },
   {
-    title: 'TRIPIO Mobile App',
-    description: 'Mobile app promoting tourism in Zipaquirá through interactive guides, cultural experiences, and smart travel planning.',
-    image: 'assets/projects/tripio/tripio.jpg',
-    images: [
+    titulo: 'TRIPIO Mobile App',
+    descripcion: 'Mobile app promoting tourism in Zipaquirá through interactive guides, cultural experiences, and smart travel planning.',
+    imagen: 'assets/projects/tripio/tripio.jpg',
+    imagenes: [
       'assets/projects/tripio/homeT.png',
       'assets/projects/tripio/mapT.png',
       'assets/projects/tripio/productT.png',
