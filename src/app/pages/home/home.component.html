@@ -297,7 +297,7 @@
   <!-- Diálogo con carrusel de imágenes -->
   <div *ngIf="dialogActivo"
     class="fixed inset-0 z-50 bg-black/70 backdrop-blur-sm flex items-center justify-center p-4">
-    <div class="bg-transparent rounded-3xl w-full sm:max-w-2xl md:max-w-3xl p-6 relative text-white shadow-2xl flex flex-col items-center gap-4">
+    <div class="bg-transparent rounded-3xl w-full sm:max-w-2xl md:max-w-3xl p-1 relative text-white shadow-2xl flex flex-col items-center gap-4">
       <!-- Título del proyecto -->
       <h3 class="text-xl sm:text-2xl font-bold mb-2 text-center">{{ proyectoActual.titulo }}</h3>
 
@@ -309,7 +309,7 @@
         </button>
 
         <img [src]="imagenesDialogo[imagenActual]" alt="Imagen del proyecto"
-          class="max-h-[60vh] rounded-2xl object-contain transition duration-300 saturate-150 brightness-110 w-full max-w-full" />
+          class="max-h-[70vh] rounded-2xl object-contain transition duration-300 saturate-150 brightness-110 w-full max-w-full" />
 
         <button (click)="siguienteImagen()"
           class="absolute right-0 sm:right-[-30px] text-3xl font-bold hover:text-orange-400 transition-transform transform hover:scale-125">

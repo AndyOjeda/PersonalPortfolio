@@ -66,7 +66,7 @@ export class HomeComponent {
   {
     titulo: 'Latinaguas',
     descripcion: 'Water treatment solutions provider with custom engineering, technical consulting, and over two decades of experience in public and industrial systems.',
-    imagn: 'assets/projects/latinaguas/a.jpg',
+    imagen: 'assets/projects/latinaguas/a.jpg',
     imagenes: [
       'assets/projects/latinaguas/home.png',
       'assets/projects/latinaguas/home1.png',
